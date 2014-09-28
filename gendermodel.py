@@ -26,7 +26,7 @@ data = np.array(data) 									# Then convert from a list to an array.
 # Set some variables
 number_passengers = np.size(data[0::,1].astype(np.float))
 number_survived = np.sum(data[0::,1].astype(np.float))
-proportion_survivors = number_survived / number_passengers 
+proportion_survivors = number_survived / number_passengers
 
 # I can now find the stats of all the women on board,
 # by making an array that lists True/False whether each row is female
